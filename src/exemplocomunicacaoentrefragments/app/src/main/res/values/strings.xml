@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Exemplo Comunicação entre Fragments</string>
+
+    <string-array name="carros_nomes">
+        <item>Renault Kwid 1.0</item>
+        <item>Mobi 2018</item>
+        <item>Jac J2 1.5</item>
+        <item>Take Up</item>
+        <item>Lifan 530</item>
+        <item>March</item>
+        <item>Onix Joy </item>
+        <item>HB20</item>
+        <item>Ford KA 2018</item>
+    </string-array>
+
+    <string-array name="preco_carros">
+        <item>35390</item>
+        <item>34210</item>
+        <item>36990</item>
+        <item>37990</item>
+        <item>37990</item>
+        <item>39990</item>
+        <item>41690</item>
+        <item>43000</item>
+        <item>44290</item>
+    </string-array>
+</resources>
