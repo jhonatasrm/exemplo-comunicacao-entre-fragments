@@ -1,2 +1,2 @@
-# Exemplo-comunicacao-entre-fragments
-Exemplo de comunicação entre fragments utilizando interface para um fragment se comunicar através do outro utilizando a Activity.
+# Exemplo comunicação entre fragments
+Exemplo de comunicação entre fragments utilizando uma interface para um fragment se comunicar com o outro, fazendo uso da Activity como "ponte".
