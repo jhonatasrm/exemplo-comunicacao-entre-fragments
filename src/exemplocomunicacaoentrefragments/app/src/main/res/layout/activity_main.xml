@@ -3,20 +3,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp" >
+    android:padding="16dp">
 
     <fragment
         android:id="@+id/frag_list"
         android:name="com.jhonatasrm.exemplo_comunicacao_entre_fragments.CarrosFragment"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="3"/>
+        android:layout_weight="3" />
 
     <fragment
         android:id="@+id/frag_text"
         android:name="com.jhonatasrm.exemplo_comunicacao_entre_fragments.TextFragment"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"/>
+        android:layout_weight="1" />
 
 </LinearLayout>

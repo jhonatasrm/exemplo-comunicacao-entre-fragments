@@ -12,14 +12,12 @@ public class MainActivity extends Activity implements CarrosFragment.OnItemClick
 
     private TextFragment textFrag;
 
-	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		
-		setContentView(R.layout.activity_main);
-
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
         textFrag = (TextFragment) getFragmentManager().findFragmentById(R.id.frag_text);
-	}
+    }
 
     @Override
     public void onClick(Carros carros) {

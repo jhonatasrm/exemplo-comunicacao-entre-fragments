@@ -8,7 +8,6 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 public class CarrosFragment extends ListFragment {
-
     private ArrayAdapter<Carros> adapter;
     private OnItemClick listener;
 
@@ -19,7 +18,6 @@ public class CarrosFragment extends ListFragment {
         if (!(context instanceof OnItemClick)) {
             throw new RuntimeException("A activity não implementa a interface CarrosFragment.OnItemClick");
         }
-
         listener = (OnItemClick) context;
     }
 
