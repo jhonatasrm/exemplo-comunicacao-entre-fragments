@@ -46,7 +46,8 @@ public class CarrosFragment extends ListFragment {
             listener.onClick(carros);
         }
     }
-
+    
+    // interface que fará a comunicação com a MainActivity para alterar o outro fragment
     public interface OnItemClick {
         void onClick(Carros carros);
     }
