@@ -19,6 +19,7 @@ public class MainActivity extends Activity implements CarrosFragment.OnItemClick
         textFrag = (TextFragment) getFragmentManager().findFragmentById(R.id.frag_text);
     }
 
+    // Apresenta o modelo e preço do carro que foi clicado na lista
     @Override
     public void onClick(Carros carros) {
         textFrag.setText(String.format("O preço do %s é %s", carros.getNome(), nf.format(carros.getPreco())));
